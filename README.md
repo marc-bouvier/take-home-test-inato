@@ -48,3 +48,13 @@ yarn start
 ```sh
 docker-compose up
 ```
+
+## Approval test
+
+See https://github.com/approvals/Approvals.NodeJS
+
+## Mutation Test
+
+See https://stryker-mutator.io/
+
+
