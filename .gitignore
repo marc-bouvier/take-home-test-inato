@@ -2,6 +2,11 @@ node_modules
 # stryker temp files
 .stryker-tmp
 pharmacy.after.js
+pharmacy.after.test.js
 reports
 coverage
 .idea
+pharmacy.after.approval.test.js
+pharmacy.after.approval.test.Pharmacy_approve main case.approved.txt
+pharmacy.after.approval.test.Pharmacy_approve uncovered behaviour.approved.txt
+pharmacy.after.approval.test.Pharmacy_approve uncovered Magic Pill behaviour.approved.txt
