@@ -11,3 +11,4 @@ pharmacy.after.approval.test.Pharmacy_approve main case.approved.txt
 pharmacy.after.approval.test.Pharmacy_approve uncovered behaviour.approved.txt
 pharmacy.after.approval.test.Pharmacy_approve uncovered Magic Pill behaviour.approved.txt
 pharmacy.after.approval.test.Pharmacy_approve uncovered generic behaviour.approved.txt
+Pharmacy.tests.zip
