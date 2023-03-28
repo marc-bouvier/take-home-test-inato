@@ -53,8 +53,18 @@ docker-compose up
 
 See https://github.com/approvals/Approvals.NodeJS
 
+
 ## Mutation Test
 
 See https://stryker-mutator.io/
+
+Approval tests are ignored in stryker configuration (files ending with ".approval.test.js").
+If stryker mutates the production code, approval tests will try to generate new approval files in a huge mess (and diff tool will spawn in mass to chomp all your RAM).
+
+```shell
+npm run stryker
+```
+
+
 
 
