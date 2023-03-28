@@ -51,6 +51,9 @@ docker-compose up
 
 ## Approval test
 
+Approval test wil run along other tests.
+Consider using the following convention for approval test file names: "xxxxx.approval.test.js". This way, stryker mutation test will ignore them (see explanation below).
+
 See https://github.com/approvals/Approvals.NodeJS
 
 
@@ -62,6 +65,8 @@ Approval tests are ignored in stryker configuration (files ending with ".approva
 If stryker mutates the production code, approval tests will try to generate new approval files in a huge mess (and diff tool will spawn in mass to chomp all your RAM).
 
 ```shell
+yarn stryker
+# or if you use npm
 npm run stryker
 ```
 
